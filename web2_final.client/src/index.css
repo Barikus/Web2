@@ -1,0 +1,52 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #3498db, #9b59b6); /* Градиент от синего к фиолетовому */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8); /* Непрозрачный белый фон */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Темно-синий цвет текста */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #3498db; /* Голубой цвет обводки инпутов */
+    background-color: #ecf0f1; /* Светло-серый цвет фона инпутов */
+    color: #2c3e50;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Красный цвет кнопки */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #c0392b; /* Темно-красный цвет при наведении */
+    }

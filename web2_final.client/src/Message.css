@@ -1,0 +1,35 @@
+.message {
+    background-color: #fdf1dc; /* Кремовый цвет фона сообщения */
+    border: 1px solid #f9e79f; /* Яркий жёлтый для обводки */
+    padding: 0px 15px 15px 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+.message p {
+    margin: 0;
+    color: #333; /* Тёмно-синий цвет текста */
+}
+
+.timestamp {
+    font-size: 0.9em;
+    color: #a5a5a5; /* Серый цвет времени */
+}
+
+.message-title {
+    margin: 15px 0px 10px 0px;
+    font-size: 18px;
+    color: #333;
+}
+
+.message-content {
+    font-size: 18px;
+    color: #f9f9f9;
+    padding: 0 0 10px 0;
+}
+
+.message-timestamp {
+    font-size: 12px;
+    color: #777;
+}
